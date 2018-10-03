@@ -1,0 +1,6 @@
+spider - run on site to crawl no. of pages
+sprank - page rank algorithm on crawled data
+spdump - print 50 items from db
+spjson - to create json
+force html run - visualization
+spreset - resets the rank to 1.
