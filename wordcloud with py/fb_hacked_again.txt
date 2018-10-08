@@ -1,0 +1,2 @@
+Facebook Inc.’s worst security breach ever is a major blow to the company’s effort to rebuild trust with users of the social network after a privacy scandal in March.
+A hacker -- or hackers, as Facebook doesn’t know the number -- exploited several software bugs at once to obtain login access to as many as 50 million accounts. That access let the intruder act like users on their profiles, or on any applications where they signed in using Facebook.
