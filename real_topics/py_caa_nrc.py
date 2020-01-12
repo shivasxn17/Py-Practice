@@ -25,6 +25,8 @@ Basically difference between Population register and Citizen register.
 
 
 # Citizenship (Amendment) Act, 2019
+# official document from Ministry of Law & Justice
+# https://www.thehinducentre.com/resources/article30327343.ece
 def createCitizenRecord(religion, date_entered, proof_of_stay_supporting_docs):
 	print("Date Entered by the Person : {}".format(date_entered))
 
