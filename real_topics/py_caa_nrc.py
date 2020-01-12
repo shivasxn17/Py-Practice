@@ -86,10 +86,28 @@ def isIllegalImmigrant(is_citizen, supporting_docs):
 """
 https://www.businessinsider.in/india/news/what-is-npr-national-population-register-the-center-says-npr-will-be-updated-before-september-2020/articleshow/72963649.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst
 """
+person_1 = {
+	religion:"Hindu",
+	date_entered: "01-01-2017",
+	proof_of_stay_supporting_docs: False
+}
+
+
+person_2 = {
+	religion:"Not Hindu",
+	date_entered: "01-01-2017",
+	proof_of_stay_supporting_docs: False
+}
 
 # Now its open..... get the indian citizenship............
-supporting_docs = createCitizenRecord(religion, date_entered, proof_of_stay_supporting_docs)
 
+# for person 1 
+supporting_docs_1 = createCitizenRecord(religion, date_entered, proof_of_stay_supporting_docs)
+person_1["supporting_docs"] = createCitizenRecord(religion, date_entered, proof_of_stay_supporting_docs)
+
+# for person 2 
+supporting_docs = createCitizenRecord(religion, date_entered, proof_of_stay_supporting_docs)
+person_2["supporting_docs"] = createCitizenRecord(religion, date_entered, proof_of_stay_supporting_docs)
 
 # NPR already done in 2010, Updated in 2015 while Aadhar card linking
 npr_list = getNPRList() # Home minister said it will be updated September 2020 
@@ -112,3 +130,8 @@ for person in doubtful_citizens:
 
 for person in detention_center:
 	# deport ?
+
+
+# view detention center
+print(detention_center)
+[person_2]
