@@ -1,0 +1,35 @@
+[
+  {
+  	"id":"3243",
+    "type": "parent_node_main",
+    "name": "",
+    "child_container" : ["k/3243", "k/323443"]
+  },
+  {
+  	"id":"3243",
+    "type": "parent_node",
+    "name": "",
+    "child_container" : ["k/12321", "k/123123"]
+  },
+    {
+    "id": "12321",
+    "type": "child_node_1",
+    "name": ""
+  },
+  {
+  	"id":"123123",
+    "type": "child_node_2",
+    "name": ""
+  },
+  {
+  	"id":"323443",
+    "type": "parent_node_2",
+    "name": "",
+    "child_container" : ["k/123123243"]
+  },
+  {
+  	"id":"123123243",
+    "type": "child_node_3",
+    "name": ""
+  }
+]
