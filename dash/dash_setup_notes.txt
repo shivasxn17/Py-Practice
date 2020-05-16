@@ -1,0 +1,9 @@
+article followed:
+
+https://pythonprogramming.net/data-visualization-application-dash-python-tutorial-introduction/
+
+
+pip install dash dash-renderer dash-html-components dash-core-components plotly
+
+
+
